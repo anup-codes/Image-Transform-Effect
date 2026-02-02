@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 .hero{
   height: 100vh;
@@ -10,9 +11,10 @@
   position: relative;
 } 
 nav{
-  width: 84%;
-  margin: auto;
-  padding: 5px 0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,13 +36,13 @@ nav ul li a:hover{
   color :#ff4321;
 }
 .info{
-  margin-left: 8%;
-  margin-top: 15%;
+  margin-left: 4%;
+  margin-top: 100px;
 }
 .info h1{
   font-size: 70px;
   color: #212121;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 span{
   color: #ff4321 ;
@@ -60,24 +62,39 @@ span{
 }
  .img-box{
   width: 5%;
-  height:80%;
+  height:85%;
   position: absolute;
   bottom: 0;
-  left: 1000px;
+  left: 1010px;
   right: 80px;
 }
 .img-box img{
-  height: 90%;
+  height: 85%;
   position: absolute;
   bottom: 0;
   transform:translateX(-50%) ;
   transition: bottom 1s, left 2s;
 } 
+.back-img{
+  height: 75px;
+}
 
 .img-box:hover .back-img{
   bottom: 10px;
 }
 
 .img-box:hover .main-img{
-  left: 44%;
+  left: 14%;
+}
+.social-links{
+  margin-left: 4%;
+  margin-top: 100px;
+}
+.social-links a{
+  font-size: 30px;
+  color: #606163;
+        margin-right: 20px;
+      }
+.social-links a:hover{
+  color: #ff4321;
 }
